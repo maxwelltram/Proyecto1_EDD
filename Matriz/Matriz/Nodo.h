@@ -1,4 +1,5 @@
 #pragma once
+#include "NodoA.h"
 #include <iostream>
 class Nodo
 {
@@ -20,7 +21,7 @@ public:
 	std::string NomCom;
 
 
-	Nodo(std::string dato1, std::string dato2, std::string dato3)
+	Nodo(std::string dato1, std::string dato2, std::string dato3,NodoA* arbol)
 	{
 		Siguiente = nullptr;
 		Anterior = nullptr;

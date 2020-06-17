@@ -1,5 +1,14 @@
-﻿  ListaCircular.cpp
+﻿  Admin.cpp
+C:\Users\Acer\source\repos\Matriz\Matriz\Admin.cpp(49,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Acer\source\repos\Matriz\Matriz\Admin.cpp(53,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Acer\source\repos\Matriz\Matriz\Admin.cpp(57,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Acer\source\repos\Matriz\Matriz\Admin.cpp(61,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Acer\source\repos\Matriz\Matriz\Admin.cpp(65,20): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Acer\source\repos\Matriz\Matriz\Admin.cpp(92,23): warning C4018: '<': no coinciden signed/unsigned
+C:\Users\Acer\source\repos\Matriz\Matriz\Admin.cpp(96,23): warning C4018: '<': no coinciden signed/unsigned
+  Matriz.cpp
   [PROYECTOEDD].cpp
-C:\Users\Acer\source\repos\Matriz\Matriz\[PROYECTOEDD].cpp(8,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+C:\Users\Acer\source\repos\Matriz\Matriz\[PROYECTOEDD].cpp(7,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
   Generando código...
+C:\Users\Acer\source\repos\Matriz\Matriz\Matriz.cpp(244): warning C4715: 'Matriz::VerificarCreaciónUsuario': no todas las rutas de acceso de control devuelven un valor
   Matriz.vcxproj -> C:\Users\Acer\source\repos\Matriz\Debug\Matriz.exe

@@ -140,18 +140,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="Arbol.cpp" />
     <ClCompile Include="Matriz.cpp" />
+    <ClCompile Include="NodoA.cpp" />
     <ClCompile Include="NodoC.cpp" />
     <ClCompile Include="Reportes.cpp" />
+    <ClCompile Include="Usuario.cpp" />
     <ClCompile Include="[PROYECTOEDD].cpp" />
     <ClCompile Include="Nodo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Admin.h" />
+    <ClInclude Include="Arbol.h" />
     <ClInclude Include="Matriz.h" />
     <ClInclude Include="Nodo.h" />
+    <ClInclude Include="NodoA.h" />
     <ClInclude Include="NodoC.h" />
     <ClInclude Include="Reportes.h" />
+    <ClInclude Include="Usuario.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,5 +1,6 @@
 #pragma once
 #include "Nodo.h"
+#include "NodoA.h"
 #include <iostream>
 using namespace std;
 
@@ -10,10 +11,10 @@ public:
 
 	Matriz() 
 	{
-		Cabecera = new Nodo("admin", "admin","admin");
+		Cabecera = new Nodo("admin", "admin","admin",nullptr);
 	}
 
-	void InsertarElemento(string usuario,string contrasenia, string nombreComple, string empresa, string departamento);
+	void InsertarElemento(string usuario,string contrasenia, string nombreComple, string empresa, string departamento,NodoA* arbol);
 
 	//INICIA CREANDO CABECERAS
 	Nodo* CrearEmpresa(string departa);

@@ -1,13 +1,14 @@
 #include "Matriz.h"
 #include "Nodo.h"
+#include "NodoA.h"
 
 
-void Matriz::InsertarElemento(string usuario,string contrasenia, string nombreComple, string empresa, string departamento)
+void Matriz::InsertarElemento(string usuario,string contrasenia, string nombreComple, string empresa, string departamento,NodoA* arbol)
 {
 	Nodo* NodoUser;
 	Nodo* NodoDepa;
 	Nodo* NodoEmpre;
-	NodoUser = new Nodo(usuario, contrasenia, nombreComple);
+	NodoUser = new Nodo(usuario, contrasenia, nombreComple, arbol);
 
 	NodoDepa = BuscarDepartamento(departamento, Cabecera);
 	NodoEmpre = BuscarEmpresa(empresa, Cabecera);
@@ -150,7 +151,7 @@ void Matriz::InsertarElemento(string usuario,string contrasenia, string nombreCo
 Nodo* Matriz::CrearEmpresa(string empresa)
 {
 	Nodo* empresaInsertar;
-	empresaInsertar = new Nodo(empresa,"","");
+	empresaInsertar = new Nodo(empresa,"","",nullptr);
 
 	Nodo* aux = Cabecera;
 
@@ -172,7 +173,7 @@ Nodo* Matriz::CrearEmpresa(string empresa)
 Nodo* Matriz::CrearDepartamento(string depa)
 {
 	Nodo* departamentoInsertar;
-	departamentoInsertar = new Nodo(depa, "","");
+	departamentoInsertar = new Nodo(depa, "","",nullptr);
 
 	Nodo* aux = Cabecera;
 

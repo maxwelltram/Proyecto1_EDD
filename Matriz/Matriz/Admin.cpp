@@ -4,7 +4,7 @@
 #include <iostream>
 
 
-
+NodoA* arbol = new NodoA;
 void Admin::MenuAdmin() {
 	cout << "**********   BIENVENIDO DE NUEVO ADMIN  ***********\n";
 	cout << "**********1.	CREAR  NUEVO  USUARIO	***********\n";
@@ -69,7 +69,7 @@ void Admin::CrearUsuario()
 	
 	
 	if (matri->VerificarCreaciónUsuario(empresa, usuario, departamento) == true) {
-		matri->InsertarElemento(usuario, contrasenia, nombreCom, empresa, departamento);
+		matri->InsertarElemento(usuario, contrasenia, nombreCom, empresa, departamento,arbol);
 		cout << "**********	   CREADO EXITOSAMENTE	       *********\n\n\n\n";
 	}
 	else {
